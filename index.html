@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Menu</title>
+  <style>
+      body {
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .parallax {
+            perspective: 1px;
+            height: 100vh;
+            overflow-x: hidden;
+            overflow-y: auto;
+        }
+
+        .parallax__layer {
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+        }
+
+        .parallax__background {
+            transform: translateZ(-1px) scale(2);
+        }
+
+        .parallax__content {
+            transform: translateZ(0);
+            z-index: 1;
+            padding: 50px;
+            text-align: center;
+            color: white;
+        }
+</style>
+</head>
+<body>
+
+  <div class="parallax">
+    <div class="parallax__layer parallax__background">
+      <!-- Tło (obraz lub kolor) -->
+      <img src="Fotoram.io.jpg" style="box-shadow: none;" alt="Background Image">
+  </div>  
+    <div class="parallax__layer parallax__content">
+  <header>
+    <div class="container">
+      <h1>Kondensatory</h1>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>&nbsp;
+          <li><a href="denx.html">Prosto O Kondensatorach</a></li>&nbsp;
+          <li><a href="https://github.com/Fistaszeq">O mnie</a></li>&nbsp;
+          <li><button onclick="dark()">Problem</button></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+
+  
+<br><br><br><br><br>
+  <div class="container" id="container">
+    <h1> Definicja Kondensatora</h1>
+
+    <div class="text"><br>
+      <p>
+        Kondensator to <strong>element elektroniczny</strong>, który składa się z dwóch przewodzących płyt oddzielonych dielektrykiem.
+        Kiedy kondensator jest połączony z źródłem napięcia, na jego płytach gromadzi się ładunek elektryczny.
+      </p>
+<h1><img src="rys32-1809529540.jpg" alt=""></h1>
+      <p>
+        <em>Dielektryk</em> (izolator) między płytami kondensatora pełni rolę izolacji, utrzymując ładunek i uniemożliwiając jego przepływ.
+        Jednostką pojemności kondensatora jest <strong>farad (F)</strong>.
+      </p>
+
+      <p>
+        Kondensatory są szeroko stosowane w elektronice do przechowywania i dostarczania energii elektrycznej w układach elektronicznych.
+        Mogą być używane do filtrowania sygnałów, stabilizacji napięcia i wielu innych zastosowań.
+      </p>
+
+      <p class="info">
+        Warto zauważyć, że kondensatory mają zdolność magazynowania energii elektrycznej, co sprawia, że są kluczowym elementem w dziedzinie elektroniki.
+      </p>
+    </div>
+
+    <h1>Budowa Kondensatora</h1>
+
+    <div class="text">
+<br>
+      <p class="info">
+        <strong>Metalowe Płytki: </strong>Kondensator składa się z dwóch metalowych płytek, zazwyczaj wykonanych z aluminium lub innego przewodzącego materiału.
+      </p>
+
+      <p>
+       <strong> Dielektryk: </strong>
+        Pomiędzy metalowymi płytkami znajduje się dielektryk, czyli materiał izolacyjny. Popularnym dielektrykiem jest m.in. folia polietylenowa lub ceramika. Dielektryk izoluje obie płytki, umożliwiając gromadzenie ładunku.
+      </p>
+
+<img src="9939-d9b0-919x0_007-13.jpg" style="width: 40%;" alt="">
+      <p>
+        <strong>Łączniki: </strong>
+        Płytki są połączone z zewnętrznym obwodem za pomocą przewodzących łączników, umożliwiając przepływ prądu.
+      </p>
+
+
+      <p>
+        <strong>Pojemność: </strong>
+        Istotną cechą kondensatora jest jego pojemność, mierzona w faradach (F), określająca zdolność kondensatora do gromadzenia ładunku.
+      </p>
+    </div>
+
+    <h1>Pojemność Kondensatora</h1>
+
+    <div class="text">
+<p>Pojemność kondensatora to istotna właściwość określająca zdolność kondensatora do magazynowania ładunku elektrycznego. Pojemność jest definiowana jako stosunek ładunku (Q), który kondensator jest w stanie zgromadzić, do różnicy potencjałów (napięcia) między jego okładkami. Wzór na pojemność kondensatora można zapisać jako<br>
+   <span style="padding: 0 1em;"> C =<i>Q/</i><i>U</i></span>
+<br>
+Gdzie 
+C to pojemność, Q to ładunek, a U to napięcie.
+</p>
+    </div class="text">
+
+  </div>
+</div></div>
+  <script src="script.js"></script>
+</body>
+</html>

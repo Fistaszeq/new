@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Responsive Menu</title>
+  <style>
+         body {
+            margin: 0;
+            overflow: hidden;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: linear-gradient(45deg, gray, rgb(0, 147, 147));
+            animation: backgroundAnimation 10s infinite alternate;
+        }
+
+        @keyframes backgroundAnimation {
+            0% {
+                background-position: 0% 0%;
+            }
+            100% {
+                background-position: 100% 100%;
+            }
+        }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Kondensatory</h1>
+      <div class="menu-toggle" id="mobile-menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <nav class="navbar">
+        <ul>
+          <li><a href="index.html">Strona główna</a></li>&nbsp;
+          <li><a href="denx.html">Prosto O Kondensatorach</a></li>&nbsp;
+          <li><a href="https://github.com/Fistaszeq">O mnie</a></li>&nbsp;
+          <!-- <li><button onclick="dark()">Problem</button></li> -->
+        </ul>
+      </nav>
+    </div>
+  </header>
+<br><br><br><br><br>
+
+  <div class="container" id="const">
+    <h1> Definicja Kondensatora</h1>
+    <div class="text">
+        <p>Kondensatory to jak "baterie na chwilę" w świecie elektryczności. Imagine kondensator jak schowek na elektryczność. Gdy podłączysz kondensator do źródła prądu, "łapie" ładunek elektryczny. Kiedy go odłączysz, kondensator zachowuje ten ładunek na później, gotowy do użycia.</p>
+    </div>
+
+    <h1>Jak Działa Kondensator</h1>
+
+        <p class="text">
+            Kondensator jest elementem elektrycznym, który przechowuje ładunek elektryczny. Jego budowa opiera się na dwóch przewodzących płaszczyznach, nazywanych okładkami, oddzielonych dielektrykiem. Prosty model kondensatora składa się z dwóch przewodzących powierzchni i przestrzeni między nimi.
+        </p>
+        
+    </div>
+ </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
